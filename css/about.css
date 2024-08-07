@@ -1,0 +1,95 @@
+/* About Us */
+
+.about {
+    padding-top: 10rem;
+    min-height: 100vh;
+}
+
+.heading {
+    text-align: center;
+    font-size: 2rem;
+    color: white;
+    padding: 1rem;
+    margin: 2rem 0;
+    background: rgb(255, 151, 168);
+}
+
+.heading2 {
+    text-align: center;
+    font-size: 2rem;
+    color: white;
+    padding: 1rem;
+    margin: 2rem 0;
+    background: rgb(44, 32, 32);
+}
+
+.about .row {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    padding: 2rem 0;
+    padding-bottom: 3rem;
+}
+
+.about .row .video {
+    flex: 1 1 40rem;
+    position: relative;
+}
+
+.about .row .video video {
+    width: 100%;
+    border: 1.5rem solid #fff;
+    border-radius: .5rem;
+    box-shadow: 0 5px 15px rgb(151, 151, 151);
+    height: 100%;
+    object-fit: cover;
+}
+
+.about .row .content {
+    flex: 1 1 40rem;
+}
+
+.about .row .content h3 {
+    font-size: 3rem;
+    color: rgb(255, 151, 168);
+}
+
+.about .row .content p {
+    font-size: 2rem;
+    color: rgb(54, 36, 11);
+    padding: 1rem 0;
+    line-height: 1.5;
+}
+
+.icons-kotak {
+    display: flex;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+    background: bisque;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+    padding-left: 20%;
+}
+
+.icons-kotak .icon {
+    background: #fff;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+}
+
+.icons-kotak .icon img {
+    height: 5rem;
+    width: 5rem;
+    margin-right: 2rem;
+}
+
+.icons-kotak .icon h3 {
+    padding-bottom: .5rem;
+    font-size: 1.5rem;
+}
+
+.icons-kotak .icon p {
+    font-size: 1rem;
+}

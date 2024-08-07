@@ -1,0 +1,64 @@
+/* Home Coffee Bean Shop  Section*/
+.home {
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    background: url(../images/bean.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.home .content {
+    max-width: 50rem;
+}
+
+.home .content h3 {
+    font-size: 5rem;
+    color: rgb(44, 32, 32);
+}
+
+.home .content span {
+    font-size: 3rem;
+    color: rgb(255, 151, 168);
+    padding: 1rem 0;
+    line-height: 1.5;
+}
+
+.home .content p {
+    font-size: 2rem;
+    color: rgb(54, 36, 11);
+    padding: 1rem 0;
+    line-height: 1.5;
+}
+
+/* Home Cafe Shop */
+.home2 {
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    background: url(../images/coffee.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.home2 .content {
+    padding-left: 55%;
+}
+
+.home2 .content h3 {
+    font-size: 5rem;
+    color: rgb(29, 22, 22);
+}
+
+.home2 .content span {
+    font-size: 3rem;
+    color: rgb(255, 151, 168);
+    padding: 1rem 0;
+    line-height: 1.5;
+}
+
+.home2 .content p {
+    font-size: 2rem;
+    color: rgb(54, 36, 11);
+    padding: 1rem 0;
+    line-height: 1.5;
+}
